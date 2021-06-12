@@ -3,6 +3,12 @@
 # After Writing the task
 ![](projectimage/screenShot2.png)
 
+# To use it on your local machine
+1. Clone it or download project
+2. open terminal and navigate to the project folder
+3. type npm install.
+4. npm start
+
 
 
 # Getting Started with Create React App
