@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+footer {
+	text-align: center;
+    background-color: blue;
+    padding: 3px;
+
+}
+
+main{
+	min-height: 400px;
+	background-color: skyblue;
+	display: flex;
+    justify-content: center;
+}
+main input {
+	margin-top: 10%;
+	margin-left: 10%;
+	height: 30px;
+	width: 30vw;
+	margin-bottom: 0;
+}
+.add-btn{
+	margin-top: 10%;
+	margin-left: 10%;
+	padding: 4px;
+}
+.add-btn:hover{
+	background-color: green;
+}
+.clearAll-btn{
+	margin-top: 10%;
+	margin-left: 10%;
+	padding: 4px;
+}
+.clearAll-btn:hover{
+	background-color: red;
+}
+.delete-btn {
+	height: 20px;
+	width: 20px;
+	float: right;
+
+}
+.delete-btn:hover{
+	cursor: pointer;
+}
+.ToDoList {
+	background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190925/pngtree-vc-card-template-background-image_315612.jpg');
+	background-color: white;
+	color: blue;
+	width: 50%;
+	min-height: 85vh;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.ToDoList .item{
+	margin: 3px 0;
+	padding: 5px;
+
+}
+
+header{
+	background-color: blue;
+	padding: 3px;
+	text-align: center;
+}
